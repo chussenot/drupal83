@@ -1,12 +1,13 @@
-# Drupal
+# Data Mapper Drupal
 
-TODO: Write a gem description
+Help in you Drupal Migration ;)
+credit : https://github.com/quinn/dm-drupal
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'drupal'
+    gem 'dm-drupal2'
 
 And then execute:
 
@@ -14,11 +15,31 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install drupal
+    $ gem install dm-drupal2
 
 ## Usage
 
-TODO: Write usage instructions here
+require 'rubygems'
+require 'active_record'
+require 'data_mapper' # requires all the gems listed above
+
+require 'dm-core'
+require 'drupal'
+
+puts "ready"
+
+DataMapper.setup(:drupal, 'postgres://postgres:password@localhost/database')
+ 
+Drupal::Node.all.each do |n|
+	puts "Title : #{n.title}"
+end
+
+Drupal::User.all.each do |u|
+	puts "User : #{u.name}"
+	# u.profile
+	# u.mail
+	# u.nodes
+end
 
 ## Contributing
 
@@ -27,3 +48,5 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Added some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+
