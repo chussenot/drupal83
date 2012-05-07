@@ -19,27 +19,27 @@ Or install it yourself as:
 
 ## Usage
 
-require 'rubygems'
-require 'active_record'
-require 'data_mapper' # requires all the gems listed above
+	require 'rubygems'
+	require 'active_record'
+	require 'data_mapper' # requires all the gems listed above
 
-require 'dm-core'
-require 'drupal'
+	require 'dm-core'
+	require 'drupal'
 
-puts "ready"
+	puts "ready"
 
-DataMapper.setup(:drupal, 'postgres://postgres:password@localhost/database')
- 
-Drupal::Node.all.each do |n|
-	puts "Title : #{n.title}"
-end
+	DataMapper.setup(:drupal, 'postgres://postgres:password@localhost/database')
+	 
+	Drupal::Node.all.each do |n|
+		puts "Title : #{n.title}"
+	end
 
-Drupal::User.all.each do |u|
-	puts "User : #{u.name}"
-	# u.profile
-	# u.mail
-	# u.nodes
-end
+	Drupal::User.all.each do |u|
+		puts "User : #{u.name}"
+		# u.profile
+		# u.mail
+		# u.nodes
+	end
 
 ## Contributing
 
