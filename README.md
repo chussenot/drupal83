@@ -24,7 +24,7 @@ Or install it yourself as:
 	require 'data_mapper' # requires all the gems listed above
 
 	require 'dm-core'
-	require 'drupal'
+	require 'dm-drupal2'
 
 	puts "ready"
 
