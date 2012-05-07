@@ -1,5 +1,5 @@
 # Data Mapper Drupal
-https://rubygems.org/gems/dm-drupal2
+https://rubygems.org/gems/drupal83
 
 Help you to migrate Drupal (php) to a Ruby web project ;)
 
@@ -10,7 +10,7 @@ original gem https://github.com/quinn/dm-drupal
 
 Add this line to your application's Gemfile:
 
-    gem 'dm-drupal2'
+    gem 'drupal83'
 
 And then execute:
 
@@ -18,7 +18,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install dm-drupal2
+    $ gem install drupal83
 
 ## Usage
 
@@ -27,7 +27,7 @@ Or install it yourself as:
 	require 'data_mapper' # requires all the gems listed above
 
 	require 'dm-core'
-	require 'dm-drupal2'
+	require 'drupal83'
 
 	puts "ready"
 
