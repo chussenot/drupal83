@@ -1,6 +1,8 @@
 # Data Mapper Drupal
+https://rubygems.org/gems/dm-drupal2
 
 Help you to migrate Drupal (php) to a Ruby web project ;)
+
 credit : https://github.com/quinn/dm-drupal
 
 ## Installation
