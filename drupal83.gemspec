@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["Chussenot@gmail.com"]
   gem.description   = %q{A datamapper wrapper for a drupal database.. great for migrations - repackage original dm-drupal gem}
   gem.summary       = %q{}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/Chussenot/drupal83"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
@@ -14,4 +14,5 @@ Gem::Specification.new do |gem|
   gem.name          = "drupal83"
   gem.require_paths = ["lib"]
   gem.version       = Drupal::VERSION
+
 end

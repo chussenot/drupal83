@@ -22,7 +22,7 @@ module Drupal
       Drupal::Node.first :type => 'profile', :uid => uid
     end
 
-    property :created, Date 
-    def created_at ; Time.at(self[:created]) ; end
+    #property :created, Date 
+    #def created_at ; Time.at(self[:created]) ; end
   end
 end

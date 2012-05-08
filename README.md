@@ -3,7 +3,10 @@ https://rubygems.org/gems/drupal83
 
 Help you to migrate Drupal (php) to a Ruby web project ;)
 
-require datamapper sources http://datamapper.org/
+## Dependencies
+ datamapper sources http://datamapper.org/
+
+## Credit
 original gem https://github.com/quinn/dm-drupal
 
 ## Installation
@@ -23,10 +26,7 @@ Or install it yourself as:
 ## Usage
 
 	require 'rubygems'
-	require 'active_record'
 	require 'data_mapper' # requires all the gems listed above
-
-	require 'dm-core'
 	require 'drupal83'
 
 	puts "ready"
