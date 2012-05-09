@@ -17,6 +17,10 @@ module Drupal
     has n, :nodes, 
       :child_key => [:uid],
       :repository => Drupal::Repository
+
+    has n, :comments, 
+      :child_key => [:uid],
+      :repository => Drupal::Repository  
     
     def profile
       Drupal::Node.first :type => 'profile', :uid => uid

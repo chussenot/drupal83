@@ -59,4 +59,5 @@ end
 $:<< File.expand_path(Pathname.new(__FILE__).dirname)
 require 'drupal/user'
 require 'drupal/node'
+require 'drupal/comment'
 require 'drupal/cck'

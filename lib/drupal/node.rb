@@ -9,6 +9,11 @@ module Drupal
     property :type, String
     property :title, String
     
+
+    has n, :comments, 
+      :child_key => [:nid],
+      :repository => Drupal::Repository  
+    
     before :save, :assign_vid
     after :save, :write_node_revision
     
