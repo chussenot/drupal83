@@ -1,7 +1,7 @@
 require "drupal/version"
 
-require 'rake'
-load 'tasks/drupal83.rake'
+#require 'rake'
+#load 'tasks/drupal83.rake'
 
 module Drupal
   RepositoryName = :drupal

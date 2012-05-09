@@ -17,6 +17,6 @@ Gem::Specification.new do |gem|
 
 
   gem.has_rdoc = false
-  gem.add_dependency("data_mapper")
+  # gem.add_dependency("data_mapper")
 
 end
