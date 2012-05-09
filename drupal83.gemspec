@@ -15,4 +15,8 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Drupal::VERSION
 
+
+  gem.has_rdoc = false
+  gem.add_dependency("data_mapper")
+
 end

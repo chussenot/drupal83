@@ -45,7 +45,7 @@ module Drupal
   
   class NodeRevision
     eval Drupal.common
-    storage_names[:drupal] = 'node_revision'
+    storage_names[:drupal] = 'node_revisions'
 
     property :vid, Serial
     property :nid, Integer
