@@ -3,6 +3,10 @@ https://rubygems.org/gems/drupal83
 
 Help you to migrate Drupal (php) to a Ruby web project ;)
 
+WARNIG :: 
+for now you can use this gem only with a 6.1.* Drupal site.
+we plan to manage Drupal 7 site in future version
+
 ## Dependencies
  datamapper sources http://datamapper.org/
 
