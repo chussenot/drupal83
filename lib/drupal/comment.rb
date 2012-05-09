@@ -7,7 +7,7 @@ module Drupal
     property :pid, Integer
     property :nid, Integer
     property :uid, Integer
-    property :type, String
+    
     property :subject, String
     property :comment, Text
     property :hostname, String

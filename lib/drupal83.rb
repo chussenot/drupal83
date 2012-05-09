@@ -60,4 +60,8 @@ $:<< File.expand_path(Pathname.new(__FILE__).dirname)
 require 'drupal/user'
 require 'drupal/node'
 require 'drupal/comment'
+require 'drupal/file'
+require 'drupal/node_type'
+require 'drupal/permission'
+require 'drupal/role'
 require 'drupal/cck'
