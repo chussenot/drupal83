@@ -31,7 +31,7 @@ Or install it yourself as:
 
 	require 'rubygems'
 	require 'data_mapper' # requires all the gems listed above
-	require 'drupal83'
+	require 'drupal'
 
 	puts "ready"
 
@@ -47,6 +47,9 @@ Or install it yourself as:
 		# u.mail
 		# u.nodes
 	end
+
+```
+```
 
 ## Contributing
 
