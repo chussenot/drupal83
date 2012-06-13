@@ -53,7 +53,7 @@ module Drupal
 
       def to_s
         "
-          class #{content_type.camel_case}
+          class #{content_type.camelcase}
             #{Drupal.common}
             storage_names[:drupal] = '#{table}'
             property :nid, Integer

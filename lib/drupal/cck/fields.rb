@@ -34,7 +34,7 @@ module Drupal
       def to_s
         return "" unless valid?
         "
-          class #{field_name.camel_case}
+          class #{field_name.camelcase}
             #{Drupal.common}
             storage_names[:drupal] = '#{table}'
             

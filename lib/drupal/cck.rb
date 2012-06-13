@@ -2,7 +2,7 @@ module Drupal
   module CCK
     module NodeMethods
       def cck_class
-        @cck_class ||= eval("Drupal::#{type.camel_case}")
+        @cck_class ||= eval("Drupal::#{type.camelcase}")
       end
     
       def cck
@@ -47,7 +47,7 @@ module Drupal
         when 'userreference'
           if through?
             r = "has 1, :#{f},
-                   :class_name => Drupal::#{f.camel_case},
+                   :class_name => Drupal::#{f.camelcase},
                    :child_key => [:nid]
                  
                  has 1, :#{f}_user,
