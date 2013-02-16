@@ -48,8 +48,6 @@ Or install it yourself as:
 		# u.nodes
 	end
 
-```
-```
 
 ## Contributing
 
